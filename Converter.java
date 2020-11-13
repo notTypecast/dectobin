@@ -66,10 +66,7 @@ public class Converter {
 				++one_count;
 		}
 		
-		if (one_count == 1)
-			return true;
-		
-		return false;
+		return one_count == 1;
 	}
 	
 	private static String invertBinary(String binary) {
